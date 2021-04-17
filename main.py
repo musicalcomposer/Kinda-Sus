@@ -1,5 +1,6 @@
 from colorama import Fore, Back, Style
 import random, time
+#For those of you on GitHub, this was made on replit.com. (formerly repl.it)
 print(Style.BRIGHT + Fore.CYAN + Back.YELLOW + "Kinda Sus\n")
 print(Fore.YELLOW + Back.CYAN + "The code is by Daniel Hsieh. He started working on this at age 10 and finished at age .")
 username = input("What is your username? ")
