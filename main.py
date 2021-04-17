@@ -546,3 +546,8 @@ if start_or_not == "y":
           if kon_O2_1_1 == "n":
             print("You head back to the cafe.")
       if where_impostor_1_1 == "Shields":
+        shld_k_v_1_1 = ["There are no people in Shields.", "There are two people in Shields."]
+        shld_k_v_rdm_1_1 = random.choice(shld_k_v_1_1)
+        print(shld_k_v_rdm_1_1)
+        if shld_k_v_rdm_1_1 == shld_k_v_1_1[0]:
+          wtg_shld_1_1 = input("")
