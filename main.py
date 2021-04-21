@@ -561,4 +561,5 @@ if start_or_not == "y":
                 crewmates_1_1 -= 1
                 r_o_n_adm_1_1 = input("Would you like to report the body? (y/n): ")
                 print("Suddenly, someone walks in and reports the body for you. They blame you.")
-                def_r_b_adm_1_1 = input("")
+                def_r_b_adm_1_1 = input("What is your defense? ((1)No! (2)It's me.): ")
+                print("Suddenly, ")
