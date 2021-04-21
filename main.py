@@ -550,4 +550,15 @@ if start_or_not == "y":
         shld_k_v_rdm_1_1 = random.choice(shld_k_v_1_1)
         print(shld_k_v_rdm_1_1)
         if shld_k_v_rdm_1_1 == shld_k_v_1_1[0]:
-          wtg_shld_1_1 = input("")
+          wtg_shld_1_1 = input("Where would you like to go? (Admin/Reactor): ")
+          if wtg_shld_1_1 == "Admin":
+            adm_k_v_1_1 = ["There is one person in Admin.", "There are two people in Admin."]
+            adm_k_v_rdm_1_1 = random.choice(adm_k_v_1_1)
+            print(adm_k_v_rdm_1_1)
+            if adm_k_v_rdm_1_1 == adm_k_v_1_1[0]:
+              k_o_n_adm_1_1 = input("Would you like to kill? (y/n): ")
+              if k_o_n_adm_1_1 == "y":
+                crewmates_1_1 -= 1
+                r_o_n_adm_1_1 = input("Would you like to report the body? (y/n): ")
+                print("Suddenly, someone walks in and reports the body for you. They blame you.")
+                def_r_b_adm_1_1 = input("")
