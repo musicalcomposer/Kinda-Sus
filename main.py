@@ -562,4 +562,6 @@ if start_or_not == "y":
                 r_o_n_adm_1_1 = input("Would you like to report the body? (y/n): ")
                 print("Suddenly, someone walks in and reports the body for you. They blame you.")
                 def_r_b_adm_1_1 = input("What is your defense? ((1)No! (2)It's me.): ")
-                print("Suddenly, ")
+                print("Someone says tan vented, even though there is no tan. The crew decides to vote out the troll, and forgets about you.")
+              if k_o_n_adm_1_1 == "n":
+                wtg_adm_1_1 = input("Where would you like to go? (")
