@@ -567,3 +567,4 @@ if start_or_not == "y":
                 wtg_adm_1_1 = input("Where would you like to go? (Admin/Security): ")
                 if wtg_adm_1_1 == "Admin":
                   adm_k_v_1_1_1 = ["There is one person in Admin.", "There are two crewmates in Admin."]
+                  adm_k_v_rdm_1_1 = random.choice(adm_k_v_1_1_1)
