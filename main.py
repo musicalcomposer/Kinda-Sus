@@ -572,4 +572,4 @@ if start_or_not == "y":
                   if adm_k_v_rdm_1_1 == adm_k_v_1_1_1[0]:
                     kon_adm_1_1 = input("Would you like to kill? (y/n): ")
                     if kon_adm_1_1 == "y":
-                      
+                      print("You kill.")
