@@ -571,6 +571,7 @@ if start_or_not == "y":
                   print(adm_k_v_rdm_1_1)
                   if adm_k_v_rdm_1_1 == adm_k_v_1_1_1[0]:
                     kon_adm_1_1 = input("Would you like to kill? (y/n): ")
+                    crewmates_1_1 -= 1
                     if kon_adm_1_1 == "y":
                       print("You kill.")
                       wtg_adm_1_1_1 = input("Where would you like to go? (Electrical/Shields): ")
@@ -580,3 +581,7 @@ if start_or_not == "y":
                         print(ecrcl_k_v_rdm_1_1)
                         if ecrcl_k_v_rdm_1_1 == ecrcl_k_v_1_1[0]:
                           kon_admm_1_1 = input("Would you like to kill? (y/n): ")
+                          if kon_admm_1_1 == "y":
+                            crewmates_1_1 -= 1
+                            print("You kill, and an earthling reports the body. They blame you. the crew votes you out.")
+                            impostor_1_1 -= 1
