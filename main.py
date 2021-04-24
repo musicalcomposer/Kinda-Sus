@@ -576,3 +576,7 @@ if start_or_not == "y":
                       wtg_adm_1_1_1 = input("Where would you like to go? (Electrical/Shields): ")
                       if wtg_adm_1_1_1 == "Electrical":
                         ecrcl_k_v_1_1 = ["There are two people in Electrical.", "There is one person in Electrical."]
+                        ecrcl_k_v_rdm_1_1 = random.choice(ecrcl_k_v_1_1)
+                        print(ecrcl_k_v_rdm_1_1)
+                        if ecrcl_k_v_rdm_1_1 == ecrcl_k_v_1_1[0]:
+                          kon_admm_1_1 = input("Would you like to kill? (y/n): ")
