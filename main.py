@@ -592,3 +592,4 @@ if start_or_not == "y":
                               r_k_r_c_v_d_t_r_m_1_1 = random.choice(r_k_c_v_t_r_1_1)
                               print(r_k_r_c_v_d_t_r_m_1_1)
                               if r_k_r_c_v_d_t_r_m_1_1 == r_k_c_v_t_r_1_1[0]:
+                                k_r_o_c_n_t_1_r_1 = input("Would you like to kill? (y/n): ")
