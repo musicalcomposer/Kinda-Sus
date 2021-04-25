@@ -591,3 +591,4 @@ if start_or_not == "y":
                               r_k_c_v_t_r_1_1 = ["There are two crewmates in Reactor.", "There is one person in Reactor."]
                               r_k_r_c_v_d_t_r_m_1_1 = random.choice(r_k_c_v_t_r_1_1)
                               print(r_k_r_c_v_d_t_r_m_1_1)
+                              if r_k_r_c_v_d_t_r_m_1_1 == r_k_c_v_t_r_1_1[0]:
