@@ -585,7 +585,7 @@ if start_or_not == "y":
                             crewmates_1_1 -= 1
                             print("You kill, and an earthling reports the body. They blame you. the crew votes you out.")
                             impostor_1_1 -= 1
-                          if kom_admm_1_1 == "n":
+                          if kon_admm_1_1 == "n":
                             w_admm_t_1_g_1 = input("Where would you like to go? (Reactor/Weapons): ")
                             if w_admm_t_1_g_1 == "Reactor":
                               r_k_c_v_t_r_1_1 = ["There are two crewmates in Reactor.", "There is one person in Reactor."]
