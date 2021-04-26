@@ -593,3 +593,8 @@ if start_or_not == "y":
                               print(r_k_r_c_v_d_t_r_m_1_1)
                               if r_k_r_c_v_d_t_r_m_1_1 == r_k_c_v_t_r_1_1[0]:
                                 k_r_o_c_n_t_1_r_1 = input("Would you like to kill? (y/n): ")
+                                if k_r_o_c_n_t_1_r_1 == "y":
+                                  crewmates_1_1 -= 1
+                                  print("Someone reports the body. You get voted out.")
+                                  impostor_1_1 -= 1
+                                if k_r_o_c_n_t_1_r_1 == "n":
