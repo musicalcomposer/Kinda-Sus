@@ -598,3 +598,8 @@ if start_or_not == "y":
                                   print("Someone reports the body. You get voted out.")
                                   impostor_1_1 -= 1
                                 if k_r_o_c_n_t_1_r_1 == "n":
+                                  w_r_t_c_g_t_1_r_1 = input("Where would you like to go? (Navigation/Storage): ")
+                                  if w_r_t_c_g_t_1_r_1 == "Navigation":
+                                    n_k_a_v_v_1_1 = ["There are two people in Navigation.", "There is one person in Navigation."]
+                                    n_k_a_v_v_1_1_rdm = random.choice(n_k_a_v_v_1_1)
+                                    print(n_k_a_v_v_1_1_rdm)
