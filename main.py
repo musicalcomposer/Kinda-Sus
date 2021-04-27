@@ -603,3 +603,5 @@ if start_or_not == "y":
                                     n_k_a_v_v_1_1 = ["There are two people in Navigation.", "There is one person in Navigation."]
                                     n_k_a_v_v_1_1_rdm = random.choice(n_k_a_v_v_1_1)
                                     print(n_k_a_v_v_1_1_rdm)
+                                    if n_k_a_v_v_1_1_rdm == n_k_a_v_v_1_1[0]:
+                                      k_n_o_a_n_v_1_1 = input("Would you like to kill? (y/n): ")
