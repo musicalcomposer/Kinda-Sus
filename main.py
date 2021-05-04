@@ -605,3 +605,11 @@ if start_or_not == "y":
                                     print(n_k_a_v_v_1_1_rdm)
                                     if n_k_a_v_v_1_1_rdm == n_k_a_v_v_1_1[0]:
                                       k_n_o_a_n_v_1_1 = input("Would you like to kill? (y/n): ")
+                                      if k_n_o_a_n_v_1_1 == "y":
+                                        crewmates_1_1 -= 1
+                                        print("Someone reports the body. You get voted out.")
+                                        impostor_1_1 -= 1
+                                      if k_n_o_a_n_v_1_1 == "n":
+                                        w_n_t_a_g_v_1_1 = input("Where would you like to go? (Communications/O2): ")
+                                        if w_n_t_a_g_v_1_1 == "Communications":
+                                          c_k_o_v_m_1_m_1_s = []
